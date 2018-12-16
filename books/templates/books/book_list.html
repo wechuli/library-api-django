@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>All Books</title>
+</head>
+<body>
+    <h1>All Books</h1>
+    {% for book in object_list %}
+    <ul>
+        <li>Title:{{ book.title }}</li>
+        <li>Title:{{ book.subtitle }}</li>
+        <li>Title:{{ book.author }}</li>
+        <li>Title:{{ book.description }}</li>
+        <li>Title:{{ book.isbn }}</li>
+    </ul>
+
+
+    {% endfor %}
+</body>
+</html>
